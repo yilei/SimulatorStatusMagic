@@ -59,7 +59,7 @@ static NSString * const SDStatusBarManagerDateStringKey = @"date_string";
   self = [super init];
   if (self) {
     // Set any defaults for the status bar
-    self.batteryDetailEnabled = YES;
+    self.batteryDetailEnabled = NO;
     self.iPadDateEnabled = YES;
     self.iPadGsmSignalEnabled = NO;
   }
